@@ -3,7 +3,9 @@ A deep learning project that detects Diabetic Retinopathy (DR) from retinal fund
 
 This project builds an end-to-end computer vision pipeline to classify retinal images into:
 - DR (Diabetic Retinopathy)
+  
 - No DR
+
 The model uses MobileNetV2 with custom classification layers, trained on a curated retina dataset. The system includes preprocessing, EDA, augmentation, model training, evaluation, and explainability.
 
 Base Model: MobileNetV2 (ImageNet pretrained, frozen)
